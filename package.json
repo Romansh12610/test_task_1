@@ -9,7 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -28,5 +28,5 @@
     "typescript": "^5.2.2",
     "vite": "^5.1.4"
   },
-  "homepage": "https://Romansh12610.github.io/test_task_1"
+  "homepage": "https://Romansh12610/test_task_1"
 }
