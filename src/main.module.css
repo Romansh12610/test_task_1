@@ -1,0 +1,37 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+main {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input {
+	font: inherit;
+}
+
+.paramWrapper {
+	font-size: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: start;
+	align-items: center;
+	column-gap: 50px;
+}
